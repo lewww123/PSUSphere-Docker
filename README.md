@@ -6,7 +6,7 @@ This project containerizes the **PSUSphere Django Web Application** using Docker
 ---
 
 
-##PRoject Overview
+## PRoject Overview
 PSUSphere is a Django-basef web application(student organiztion/portal system). >
 This repository includes Docker configuration for easy deployment and portability
 
@@ -21,7 +21,7 @@ This repository includes Docker configuration for easy deployment and portabilit
 
 ---
 
-##Prerequisites
+## Prerequisites
 Before running the project, mmake sure you have installed:
 - Docker 
 - Docker Compose
@@ -31,19 +31,19 @@ docker --version
 docker compose version
 ---
 
-###STEP1 
+### STEP1 
 git clone 
 cd PSUSpehere
 ---
 
-###STEP2 DOCKER SET-UP
+### STEP2 DOCKER SET-UP
 - Build the Docker Image
 docker build -t psusphere:latest .
 - Run the app
 docker compose up -d
 - check running containers
 docker ps
-###STEP3 ACCESS THE APPLICATION
+### STEP3 ACCESS THE APPLICATION
 https://localhost:8000
 ---
 ## 👨‍💻 Authors
